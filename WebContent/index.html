@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="hermesStyle.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    
+</head>
+<body>
+<div id="header"></div>
+<div id="graphArea" class="container-fluid"></div>
+<script src="HermesGraphLoader.js"></script>
+<div id="footer" class="footerClass"></div>
+<script>
+	$(function() {
+		$("#header").load("Header.html");
+		$("#footer").load("Footer.html");
+	});
+</script>
+</body>
+</html>
